@@ -1,0 +1,6 @@
+def thankYou():
+    forWatching = "Alex Albert \nMaker Profile\n"
+    song = "Honeydew \nBy:PYC"
+    print(forWatching)
+    print(song)
+thankYou()
