@@ -14,8 +14,6 @@
 		FA05CC371FFF4433008022DA /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA05CC361FFF4433008022DA /* ProfileVC.swift */; };
 		FA05CC39200178C3008022DA /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA05CC38200178C3008022DA /* AboutVC.swift */; };
 		FA05CC3B20018947008022DA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA05CC3A20018947008022DA /* User.swift */; };
-		FA05CC3D2001ACD5008022DA /* Card.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA05CC3C2001ACD5008022DA /* Card.xib */; };
-		FA05CC3F2001AD48008022DA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA05CC3E2001AD48008022DA /* CardView.swift */; };
 		FA05CC412001C66E008022DA /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA05CC402001C66E008022DA /* OverlayView.xib */; };
 		FA05CC4320033138008022DA /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA05CC4220033137008022DA /* StringExtension.swift */; };
 		FA05CC452003313F008022DA /* PhoneNumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA05CC442003313F008022DA /* PhoneNumberFormatter.swift */; };
@@ -26,7 +24,6 @@
 		FA26FC181FF3150B00342535 /* Crush.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA26FC161FF3150B00342535 /* Crush.xcdatamodeld */; };
 		FA26FC1A1FF3150B00342535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA26FC191FF3150B00342535 /* Assets.xcassets */; };
 		FA26FC1D1FF3150B00342535 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA26FC1B1FF3150B00342535 /* LaunchScreen.storyboard */; };
-		FA26FC251FF3160500342535 /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26FC241FF3160500342535 /* RootPageViewController.swift */; };
 		FA26FC271FF3370D00342535 /* SegueFromRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26FC261FF3370D00342535 /* SegueFromRight.swift */; };
 		FA26FC291FF497AC00342535 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA26FC281FF497AB00342535 /* GoogleService-Info.plist */; };
 		FA26FC2B1FF49A2F00342535 /* PhoneVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA26FC2A1FF49A2F00342535 /* PhoneVerification.swift */; };
@@ -68,8 +65,6 @@
 		FA05CC361FFF4433008022DA /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		FA05CC38200178C3008022DA /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
 		FA05CC3A20018947008022DA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		FA05CC3C2001ACD5008022DA /* Card.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Card.xib; sourceTree = "<group>"; };
-		FA05CC3E2001AD48008022DA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		FA05CC402001C66E008022DA /* OverlayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
 		FA05CC4220033137008022DA /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		FA05CC442003313F008022DA /* PhoneNumberFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberFormatter.swift; sourceTree = "<group>"; };
@@ -82,7 +77,6 @@
 		FA26FC191FF3150B00342535 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA26FC1C1FF3150B00342535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA26FC1E1FF3150B00342535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA26FC241FF3160500342535 /* RootPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
 		FA26FC261FF3370D00342535 /* SegueFromRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueFromRight.swift; sourceTree = "<group>"; };
 		FA26FC281FF497AB00342535 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FA26FC2A1FF49A2F00342535 /* PhoneVerification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneVerification.swift; sourceTree = "<group>"; };
@@ -169,14 +163,11 @@
 			children = (
 				FA26FC361FF736AC00342535 /* Crush.entitlements */,
 				FA26FC131FF3150B00342535 /* Main.storyboard */,
-				FA05CC3E2001AD48008022DA /* CardView.swift */,
-				FA05CC3C2001ACD5008022DA /* Card.xib */,
 				FA91ED25201576D30088D571 /* ViewController */,
 				FA56F465203BC39900912576 /* Message Stuff */,
 				FA91ED232015769B0088D571 /* View */,
 				FA91ED24201576A90088D571 /* Model */,
 				FA26FC191FF3150B00342535 /* Assets.xcassets */,
-				FA91ED2C201BBBC30088D571 /* Failed Message Files */,
 				FA26FC1B1FF3150B00342535 /* LaunchScreen.storyboard */,
 				FA26FC1E1FF3150B00342535 /* Info.plist */,
 				FA26FC281FF497AB00342535 /* GoogleService-Info.plist */,
@@ -230,7 +221,6 @@
 		FA91ED25201576D30088D571 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				FA26FC241FF3160500342535 /* RootPageViewController.swift */,
 				FA56F476205F23D100912576 /* LetsGoVC.swift */,
 				FA26FC2A1FF49A2F00342535 /* PhoneVerification.swift */,
 				FA56F472205EE7B100912576 /* VerifyCode.swift */,
@@ -252,13 +242,6 @@
 				FAFDC52720C4A36D001A4224 /* SchoolFollower.swift */,
 			);
 			path = ViewController;
-			sourceTree = "<group>";
-		};
-		FA91ED2C201BBBC30088D571 /* Failed Message Files */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Failed Message Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,7 +318,6 @@
 			files = (
 				FA26FC1D1FF3150B00342535 /* LaunchScreen.storyboard in Resources */,
 				FA05CC412001C66E008022DA /* OverlayView.xib in Resources */,
-				FA05CC3D2001ACD5008022DA /* Card.xib in Resources */,
 				FA26FC1A1FF3150B00342535 /* Assets.xcassets in Resources */,
 				FA26FC151FF3150B00342535 /* Main.storyboard in Resources */,
 				FA26FC291FF497AC00342535 /* GoogleService-Info.plist in Resources */,
@@ -435,7 +417,6 @@
 				FA05CC4320033138008022DA /* StringExtension.swift in Sources */,
 				FA6B7F9D1FF851A1000D6146 /* SchoolController.swift in Sources */,
 				FA6ED603203943BD0046D208 /* ProfileSettings.swift in Sources */,
-				FA26FC251FF3160500342535 /* RootPageViewController.swift in Sources */,
 				FA26FC2D1FF5A19D00342535 /* Name.swift in Sources */,
 				FA56F475205EF40000912576 /* MainNav.swift in Sources */,
 				FA0840A42079B41600AEB6E4 /* MatchPopUp.swift in Sources */,
@@ -447,7 +428,6 @@
 				FAFDC52820C4A36D001A4224 /* SchoolFollower.swift in Sources */,
 				FA6ED601203919500046D208 /* invitePopUp.swift in Sources */,
 				FA05CC371FFF4433008022DA /* ProfileVC.swift in Sources */,
-				FA05CC3F2001AD48008022DA /* CardView.swift in Sources */,
 				FA05CC39200178C3008022DA /* AboutVC.swift in Sources */,
 				FA6B7F9B1FF850DB000D6146 /* School.swift in Sources */,
 				FA26FC2B1FF49A2F00342535 /* PhoneVerification.swift in Sources */,
